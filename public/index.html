@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Main-->
+    <div class="main">
+        <!--Header-->
+            <div class="header">
+                <div class="headerText">
+                    <h1>AI Art</h1>
+                </div>
+                <div class="header-navbar">
+                    <uL class="navbar-menu">
+                        <li class="navbar-item"><a href="#">Home</a></li>
+                        <li class="navbar-item"><a href="#">About</a></li>
+                    </uL>
+                </div>
+            </div>
+
+        <!--Content-->
+            <div class="content">
+                <div class="container">
+                    <div class="promptForm">
+                    <form id="prompt">
+                        <input type="text" name="textPrompt" placeholder="Enter your query" id="text"><br>
+                        <input type="submit" value="submit" id="submit">
+                    </form>
+                    </div>
+                    
+                </div>
+                <div class="container-2">
+                    <span id="rndmtext">Your turn to be a Picaso now.</span>
+                    <div class="imageContainer">
+                        <div class="borderContainer" id="imageContainer">
+                            <span id="loadtext" style="display:none;margin:auto;margin-left: auto;padding-left:9px;opacity: 0%;">Generating your image now, it may take a few minutes......</span>
+                            <img src="" id="AIimg" style="display: none;"> 
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                Footer
+            </div>
+
+
+
+
+    </div>
+        
+    <script src="/client.js"></script>
+</body>
+</html>

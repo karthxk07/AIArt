@@ -1,0 +1,159 @@
+@font-face {
+    font-family: curve;
+    src: url(./curve.ttf);
+}
+
+html{
+    height:100%;
+    
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Calibri';
+    height: 100%;
+    
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.header{
+    display: flex;
+}
+.headerText{
+    flex-grow: 1;
+}
+
+.navbar-menu{
+    display: flex;
+}
+.navbar-item{
+    list-style: none;
+    padding:0px 5px 0px 5px ;
+}
+.navbar-item a:link{
+    text-decoration: none;
+    color:white;
+    
+}
+.content{
+    width:auto;
+    display: flex;
+    flex-grow: 1;
+    padding:0px 40px 0px 40px;
+    
+}
+.container{
+    width:50%;
+    margin: 0px;
+    height:100%;
+}
+.promptForm{
+    padding: auto 0px auto 0px;
+    position:relative;
+    top:25%;
+}
+.promptForm form #text{
+    font-family:'Calibri';
+    font-size: 18px;
+    width:80%;
+    padding:15px 8px 15px 15px;
+    margin: 9px 0px 8px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px rgb(141, 141, 141);
+    transition: 0.2s ease;
+    background-color: rgba(92, 92, 92, 0.842);
+    color: white;
+    outline: none;
+    border: none;
+    
+}
+.promptForm form #text:hover{
+    outline: none;
+    scale: 102%;
+    box-shadow: 0px 2px 3px rgba(92, 92, 92, 0.842);
+    transition: 0.2s ease;
+
+}
+.promptForm form #text:focus{
+    outline: none;
+}
+.promptForm form #text::placeholder{
+    color: rgba(255, 255, 255, 0.541);
+}
+
+.promptForm form #submit{
+    font-family: 'Calibri';
+    font-size: 16px;
+    margin:20px 8px 10px 7px;
+    padding:10px 20px 10px 20px;
+    border-radius: 30px;
+    color:white;
+    background-color: blue;
+    box-shadow: 0px 0px 0px white;
+    border: none;
+    transition: 0.2s ease;
+}
+
+.promptForm form #submit:hover{
+    outline:none;
+    background-color: rgb(8, 8, 156);
+    scale:102%;
+    transition: 0.2s ease;
+}
+.container-2{
+    display:flex;
+    width:50%;
+    margin: 0px;
+    height:100%;
+    padding: 5px;
+}
+.imageContainer{
+    
+    width:30em;
+    height:30em;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(92, 92, 92, 0.842);
+    display: none;
+    scale:0%;
+    
+}
+
+.borderContainer{
+    position: relative;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height:90%;
+    border:1px solid rgba(141, 136, 136, 0.438);
+    border-radius: 20px;
+    display: flex;
+}
+.borderContainer img{
+    border-radius: 20px;
+    width:100%;
+    height:100%;
+}
+.AIimage{
+    outline: none;
+    border: none;
+}
+#rndmtext{
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-family:'curve';
+    font-size: 50px;
+    padding:0px 20px 0px 20px;
+}
+
+
+
+
+
+
